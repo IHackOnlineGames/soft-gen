@@ -1,5 +1,7 @@
 git --version
 sudo apt install python3
+sudo apt install pip
+sudo pip install tqdm
 #!/bin/bash
 REPO_URL="https://github.com/IHackOnlineGames/soft-gen.git"
 FOLDER_NAME="soft"
