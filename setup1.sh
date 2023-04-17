@@ -15,5 +15,8 @@ git sparse-checkout init --cone >/dev/null 2>&1
 git sparse-checkout set $FOLDER_NAME >/dev/null 2>&1
 mv $FOLDER_NAME/* . >/dev/null 2>&1
 rm -rf $FOLDER_NAME >/dev/null 2>&1
+rm -r Soft/README.md
+rm -r Soft/setup1.sh
+rm -r Soft/setup2.sh
 cd 
 python3 Soft/soft-gen
