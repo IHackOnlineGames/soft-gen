@@ -15,7 +15,8 @@ REM Move files and remove unnecessary files
 xcopy %FOLDER_NAME%\* .
 rmdir /s /q %FOLDER_NAME%
 del Soft\README.md
-del Soft\setup.sh
+del Soft\setup2.sh
+del Soft\setup1.sh
 
 REM Install required software
 choco install python3
