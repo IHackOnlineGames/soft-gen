@@ -1,4 +1,4 @@
-
+rm Soft
 REPO_URL="https://github.com/IHackOnlineGames/soft-gen.git"
 FOLDER_NAME="soft"
 TARGET_DIR="Soft"
@@ -13,8 +13,8 @@ git sparse-checkout init --cone
 git sparse-checkout set $FOLDER_NAME
 mv $FOLDER_NAME/* .
 rm -rf $FOLDER_NAME
-rm -r Soft/README.md
-rm -r Soft/setup.sh
+rm Soft/README.md
+rm Soft/setup.sh
 cd 
 sudo apt install python3
 sudo apt install pip
