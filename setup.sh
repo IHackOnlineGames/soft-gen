@@ -18,5 +18,5 @@ rm -r Soft/setup.sh
 cd 
 sudo apt install python3
 sudo apt install pip
-sudo pip3 install tqdm
+pip install tqdm
 python3 Soft/soft-gen
