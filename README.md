@@ -6,3 +6,5 @@ if you dont have windows, use setup1.sh and paste it into your terminal | comman
 
 
 
+# What is Soft gen?
+
