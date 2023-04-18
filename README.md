@@ -8,3 +8,4 @@ if you dont have windows, use setup1.sh and paste it into your terminal | comman
 
 # What is Soft gen?
 
+Soft gen or its offical name "soft-gen" is a microsoft code genorater. It is coded in python3, and you can look inside the code if you want to.
