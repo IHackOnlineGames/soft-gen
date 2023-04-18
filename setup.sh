@@ -1,4 +1,4 @@
-#!/bin/bash
+
 REPO_URL="https://github.com/IHackOnlineGames/soft-gen.git"
 FOLDER_NAME="soft"
 TARGET_DIR="Soft"
