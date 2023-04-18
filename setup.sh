@@ -15,4 +15,5 @@ md Soft/soft-gen.py Soft/soft-gen
 sudo apt install python3
 sudo apt install pip
 pip install tqdm
+echo Entered Soft ver 1.0.1
 python3 Soft/soft-gen
