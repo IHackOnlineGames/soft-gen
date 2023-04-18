@@ -9,7 +9,8 @@ git sparse-checkout set $FOLDER_NAME
 mv $FOLDER_NAME/* .
 rm -rf $FOLDER_NAME
 rm Soft/README.md
-rm Soft/setup.sh
+rm Soft/setup1.sh
+rm Soft/setup2.sh
 cd 
 md Soft/soft-gen.py Soft/soft-gen
 sudo apt install python3
