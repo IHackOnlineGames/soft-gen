@@ -3,7 +3,7 @@ import os
 from tqdm import tqdm
 
 def generate_random_code():
-    code = ''.join(random.choices('BCDFGHJKMNPQRTUVWXYZ2346789', k=25))
+    code = ''.join(random.choices('BCDFGHJKMNPQRTVWXYZ2346789', k=25))
     formatted_code = '-'.join([code[i:i+4] for i in range(0, 20, 4)] + [code[20:]])
     return formatted_code
 
